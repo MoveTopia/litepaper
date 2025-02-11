@@ -1,0 +1,9 @@
+# Omnium Core
+
+The Omnium Core is the control center of MoveTopia and the strategic heart of the game. It is accessible to all players and is the platform where MoveTopia's earnings are managed, trades are made and important in-game decisions are made. The Omnium Core is a key point where players can optimize their economic gains and bring together the power of the community.
+
+Players can easily trade $TOPIA tokens and Glister (Diamonds) in the control center. They can earn $TOPIA token rewards on a weekly basis by adding Aurum (Gold) resources earned from NFT items placed on the lands to the pool in the Omnium Core. In this process, the amount of Aurum added to the pool determines the weight of players in the pool and affects the reward amount. Omnium Core thus provides an effective economic tool to increase players' earnings.
+
+In addition, the Omnium Core also functions as a strategy center where players can use the Ascension Pulse (AP) points they collect. AP points allow players to have a greater say in the DAO (Decentralized Autonomous Organization) mechanism. Critical decisions such as opening new lands through community voting, determining in-game events or NFT updates are made from this center. AP allows players to take an active role in the development of the game and increases the power of the community.
+
+The Omnium Core is not only an economic hub, but also the heart of progress and growth in the MoveTopia universe. Here, players can optimize their earnings, make strategic decisions and shape the future of the game world. At every step, the Omnium Core offers players the opportunity to achieve greater goals and become part of the community. This hub brings together the economic and community-based structure of MoveTopia, providing players with a unique experience.

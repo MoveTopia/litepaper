@@ -1,0 +1,124 @@
+/**
+ * MoveTopia Docusaurus Tema Özelleştirmeleri
+ * Light & Dark Mode desteği ile markaya özel renkler
+ */
+
+/* === 🌟 TEMEL RENKLER (LIGHT MODE) === */
+:root {
+  --ifm-color-primary: #0A0F29;
+  /* 🟡 Crystal Glow - Sarı (Ana Renk) */
+  --ifm-color-primary-dark: #E6C200;
+  --ifm-color-primary-darker: #CCAD00;
+  --ifm-color-primary-darkest: #B39900;
+
+  --ifm-color-primary-light: #FFE033;
+  --ifm-color-primary-lighter: #FFEB66;
+  --ifm-color-primary-lightest: #FFF599;
+
+  --ifm-background-color: #ffffff;
+  /* 🏳️ Beyaz arka plan */
+  --ifm-background-surface-color: #F9FAFB;
+  --ifm-color-emphasis-100: #B0BEC5;
+  /* 🔵 Açık gri (nötr renk) */
+  --ifm-color-emphasis-200: #78909C;
+  --ifm-color-emphasis-300: #546E7A;
+
+  --ifm-link-color: #2E7D32;
+  /* 🟢 Utopia Green */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+}
+
+/* === 🌙 TEMEL RENKLER (DARK MODE) === */
+[data-theme='dark'] {
+  --ifm-color-primary: #FFDA34;
+  /* 🟡 Crystal Glow - Sarı */
+  --ifm-color-primary-dark: #E6C200;
+  --ifm-color-primary-darker: #CCAD00;
+  --ifm-color-primary-darkest: #B39900;
+
+  --ifm-background-color: #0A0F29;
+  /* 🔵 Midnight Nexus (Koyu Mavi) */
+  --ifm-background-surface-color: #0A0F29;
+  --ifm-color-emphasis-100: #333333;
+  /* ⚫ Shadow Stone (Koyu Gri) */
+  --ifm-color-emphasis-200: #555555;
+  --ifm-color-emphasis-300: #777777;
+
+  --ifm-link-color: #FFDA34;
+  /* 🟡 Crystal Glow - Sarı (Dark mode için vurgu rengi) */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* === 🔹 LIGHT ve DARK MODE için FARKLI LOGO === */
+
+[data-theme='light'] img[src$='#gh-dark-mode-only'],
+[data-theme='dark'] img[src$='#gh-light-mode-only'] {
+  display: none;
+}
+
+/* === 🔥 Özel Başlık Stilleri === */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
+
+/* === 📌 NAVBAR VE FOOTER RENKLERİ === */
+.navbar {
+  background-color: var(--ifm-background-color);
+  border-bottom: 3px solid var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .navbar {
+  background-color: var(--ifm-background-color);
+  border-bottom: 3px solid var(--ifm-color-primary);
+}
+
+.footer {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-primary-darkest);
+}
+
+[data-theme='dark'] .footer {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-primary-lightest);
+}
+
+/* === 📌 BUTONLAR VE LİNKLER === */
+.button {
+  background-color: var(--ifm-color-primary);
+  color: #000;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: #000;
+}
+
+/* === 📌 TABLOLAR === */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: var(--ifm-color-primary);
+  color: #000;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid var(--ifm-color-primary-darkest);
+}
